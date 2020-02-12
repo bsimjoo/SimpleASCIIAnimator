@@ -21,6 +21,10 @@ namespace A_console_ascii_animation
             Console.BufferWidth = Console.WindowWidth = Console.LargestWindowHeight - 2;
             Console.BufferHeight = Console.WindowHeight = Console.LargestWindowHeight - 1;
 
+            Console.WriteLine("Press any key to continue");
+            Console.ReadKey(true);
+            Console.Clear();
+
             //Default console color:
             Console.ForegroundColor = ConsoleColor.White;
             Console.BackgroundColor = ConsoleColor.Black;
