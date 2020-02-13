@@ -15,7 +15,7 @@ namespace A_console_ascii_animation
 
             const int AsciiMapHeight = 28;          // <-- ASCII Map each line chars count
             const int AsciiMapWidth = 42;           // <-- ASCII Map lines count
-            const int AsciiMapLinesOffset = 2;      // <-- each line ends with "\n\r" characters
+            const int AsciiMapLinesOffset = 1;      // <-- each line ends with "\n" character
 
 
             Console.BufferWidth = Console.WindowWidth = Console.LargestWindowHeight - 2;
