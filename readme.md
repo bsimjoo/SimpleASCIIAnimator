@@ -1,4 +1,4 @@
 # Simple ASCII animator
-this project could make a simple text based animation from an ascii map
+This program can draw a simple text based animation from an ASCII map.
 
 ![Exmaple](/images/example.gif)
